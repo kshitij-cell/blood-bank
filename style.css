@@ -168,6 +168,99 @@ width: 70%;
   color: white;
   background-color: crimson;
 }
+div#cont {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+  margin: 1% 3%;
+}
+
+div#back,
+div#feature {
+    background-color: rgb(233, 251, 253);
+}
+
+div#cont div.cmt {
+    margin: 1% 5%;
+}
+
+div#back span {
+    color: rgb(250, 101, 1);
+    font-size: 500%;
+}
+
+div#back div.p,
+div#feature h2 {
+    color: rgb(250, 101, 1);
+    justify-content: center;
+    text-align: center;
+    padding-top: 5%;
+}
+
+div.p span {
+    margin-top: -38px;
+}
+
+span.mar {
+    margin-top: -23px;
+    font-family: sans-serif;
+}
+
+div.flx {
+    display: flex;
+    padding: 3% 1%;
+}
+
+div.cmt p {
+    line-height: 30px;
+    letter-spacing: 1px;
+}
+
+div.cmt div.flx h2 {
+    margin-top: 20px;
+    font-size: 20px;
+}
+
+div.cmt img {
+    margin-left: 15%;
+}
+
+@media only screen and (max-width:1400px) {
+  div#cont div.cmt {
+      margin: 1%;
+      width: 330px;
+  }
+  div#cont {
+      flex-wrap: wrap;
+      width: 90%;
+      margin: auto;
+  }
+}
+
+@media only screen and (max-width:741px) {
+  div#cont div.cmt {
+      margin: 1%;
+      width: 80%;
+  }
+  div.cmt img {
+      /* margin-left: 15%; */
+      width: 60%;
+  }
+}
+
+@media only screen and (max-width:467px) {
+  div.cmt div.flx h2 {
+      font-size: 14px;
+  }
+  div.flx p {
+      font-size: 0.8em;
+  }
+  div#cont div.cmt {
+      width: 95%;
+  }
+}
+
 *,
 *:before,
 *:after {
@@ -196,7 +289,7 @@ button {
   font-family: "Open Sans", Helvetica, Arial, sans-serif;
 }
 
-.cont {
+.cont-sign {
   border-radius: 20px;
   overflow: hidden;
   position: relative;
@@ -236,7 +329,7 @@ button {
   transition: transform 0.9s ease-in-out, -webkit-transform 0.9s ease-in-out;
 }
 
-.cont.s--signup .sub-cont {
+.cont-sign.s--signup .sub-cont {
   -webkit-transform: translate3d(-640px, 0, 0);
   transform: translate3d(-640px, 0, 0);
 }
@@ -287,7 +380,7 @@ button {
   background: rgba(0, 0, 0, 0.6);
 }
 
-.cont.s--signup .img:before {
+.cont-sign.s--signup .img:before {
   -webkit-transform: translate3d(640px, 0, 0);
   transform: translate3d(640px, 0, 0);
 }
@@ -319,7 +412,7 @@ button {
   line-height: 1.5;
 }
 
-.cont.s--signup .img__text.m--up {
+.cont-sign.s--signup .img__text.m--up {
   -webkit-transform: translateX(520px);
   transform: translateX(520px);
 }
@@ -329,7 +422,7 @@ button {
   transform: translateX(-520px);
 }
 
-.cont.s--signup .img__text.m--in {
+.cont-sign.s--signup .img__text.m--in {
   -webkit-transform: translateX(0);
   transform: translateX(0);
 }
@@ -382,12 +475,12 @@ button {
   transform: translateY(-72px);
 }
 
-.cont.s--signup .img__btn span.m--in {
+.cont-sign.s--signup .img__btn span.m--in {
   -webkit-transform: translateY(0);
   transform: translateY(0);
 }
 
-.cont.s--signup .img__btn span.m--up {
+.cont-sign.s--signup .img__btn span.m--up {
   -webkit-transform: translateY(72px);
   transform: translateY(72px);
 }
@@ -444,7 +537,7 @@ div.checkbox {
   transition-timing-function: ease-out;
 }
 
-.cont.s--signup .sign-in {
+.cont-sign.s--signup .sign-in {
   -webkit-transition-timing-function: ease-in-out;
   transition-timing-function: ease-in-out;
   -webkit-transition-duration: 0.9s;
@@ -458,7 +551,7 @@ div.checkbox {
   transform: translate3d(-900px, 0, 0);
 }
 
-.cont.s--signup .sign-up {
+.cont-sign.s--signup .sign-up {
   -webkit-transform: translate3d(0, 0, 0);
   transform: translate3d(0, 0, 0);
 }
