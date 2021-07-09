@@ -1,4 +1,4 @@
-*{
+ *{
   margin: 0;
   padding: 0;
 }
@@ -12,9 +12,6 @@ a{
   margin-left: 35%;
   padding-top: 3%;
 }
-/* .card{
-  background-color: transparent;
-} */
 .card{
 margin: 5% 20% 0 20%;
 width: 70%;
@@ -101,6 +98,7 @@ width: 70%;
       color: crimson;
     }
   }
+ 
 #second,#third,#fourth{
   display: flex;
   flex-direction: row;
@@ -145,6 +143,7 @@ width: 70%;
   height: 70vh;
   width: 100%;
 }
+
 .donate{
   height: 80vh;
   width: 50%;
@@ -168,6 +167,7 @@ width: 70%;
   height: 80vh;
   width: 50%;
 }
+
 #fourth{
   height: 70vh;
 }
@@ -581,8 +581,7 @@ option {
 div#footer {
     padding-bottom: 3%;
     display: flex;
-    /* align-items: stretch; */
-    /* height: 300px; */
+    
 }
 
 div#footer,
@@ -660,13 +659,13 @@ div#footer div#links h3 {
 div#footer div#links ul li a {
     margin-right: 20px;
 }
-
-ul li {
+ 
+ul.footer-ul li.footer-li {
     list-style: none;
     margin: 20px 2px;
 }
 
-ul li a {
+ul.footer-ul li.footer-li a {
     text-decoration: none;
     color: inherit;
 }
@@ -675,10 +674,8 @@ div#footer div#contacts {
     display: flex;
     flex-direction: column;
     justify-content: space-between;
-    /* align-items: center; */
-    /* align-items: center; */
     width: 30%;
-    /* height: 80%; */
+    
 }
 
 div#footer div#contacts h3 {
@@ -693,7 +690,7 @@ div#footer div#contacts div.num {
     justify-content: left;
     align-items: center;
     font-weight: 600;
-    /* margin: 4%; */
+    
 }
 
 div#footer div#contacts div.num div h3,
@@ -745,10 +742,10 @@ div#footer div#contacts div.num div h4 {
         display: flex;
         flex-direction: column;
         justify-content: space-evenly;
-        /* text-align: center; */
+        
     }
     div#footer div#logo img {
-        /* margin-left: 6%; */
+        
         width: 40%;
     }
     div#footer div#logo span {
@@ -771,7 +768,7 @@ div#footer div#contacts div.num div h4 {
         justify-content: space-between;
         align-items: center;
         width: 95%;
-        /* height: 80%; */
+        
     }
     div#footer div#contacts h3 {
         align-self: center;
@@ -803,4 +800,4 @@ div#footer div#contacts div.num div h4 {
         flex-wrap: wrap;
         justify-content: center;
     }
-}
+} 
