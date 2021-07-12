@@ -369,7 +369,7 @@ button {
   overflow: hidden;
   position: relative;
   width: 900px;
-  height: fit-content;
+  height: 580px;
   margin: 100px auto 100px;
   background: #fff;
   box-shadow: -10px -10px 15px rgba(255, 255, 255, 0.3),
@@ -412,7 +412,7 @@ button {
 button {
   display: block;
   margin: 0 auto;
-  width: 260px;
+  width: 160px;
   height: 36px;
   border-radius: 30px;
   color: #fff;
@@ -476,7 +476,7 @@ button {
 }
 
 .img__text h2 {
-  font-size: 40px;
+  font-size: 35px;
   margin: 30px auto;
   font-weight: 700;
 }
@@ -588,9 +588,9 @@ input {
   border-radius: 4px;
 }
 div.checkbox {
-  text-align: center; 
+  text-align: center;
   margin: 20px auto;
-   margin-right: 60px;
+  margin-right: 60px;
 }
 
 .forgot-pass {
