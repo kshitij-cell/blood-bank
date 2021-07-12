@@ -89,11 +89,16 @@ a{
 }
 .first{
   margin-left: 35%;
-  padding-top: 7%;
+  padding-top: 4.1%;
 }
 .card{
-margin: 5% 20% 0 20%;
-width: 70%;
+margin: 22% 20% 0 25%;
+width: fit-content;
+}
+.card-header{
+  letter-spacing: 1px;
+  font-size: 14px;
+  font-weight: bold;
 }
 #first {
     min-height: 100vh;
@@ -337,7 +342,10 @@ div.cmt div.flx h2 {
 div.cmt img {
     margin-left: 15%;
 }
-
+.flx span.promo{
+  font-size: 14px;
+  font-weight: normal;
+}
 *,
 *:before,
 *:after {
@@ -678,7 +686,8 @@ div#end {
 
 div#end div {
     letter-spacing: 2px;
-    font-size: 0.7em;
+    font-size: 1rem;
+    text-align: center;
 }
 
 div#logo,
@@ -711,17 +720,21 @@ div#footer div#logo h2 {
     text-transform: uppercase;
     letter-spacing: 1px;
     font-size: 30px;
+    text-align: left;
 }
 
 div#footer div#logo p {
     margin: 20px;
     letter-spacing: 1.5px;
-    font-size: 0.8em;
+    font-size: 1.2rem;
+    line-height: 30px;
 }
 
 div#footer div#logo img {
-    margin-left: 6%;
-    width: 60%;
+    margin-left: 10%;
+    width: 80%;
+    height: 50px;
+    cursor: pointer;
 }
 
 div#footer div#links {
@@ -756,10 +769,12 @@ div#footer div#contacts {
     
 }
 
-div#footer div#contacts h3 {
+div#footer div#contacts h2 {
     align-self: flex-start;
     letter-spacing: 1px;
-    font-weight: 400;
+    font-weight: 600;
+    text-align: left;
+    text-transform: uppercase;
 }
 
 div#footer div#contacts div.num {
