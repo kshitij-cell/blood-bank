@@ -1,0 +1,87 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+a{
+    text-decoration: none;
+  }
+body{
+    overflow-x: hidden;
+  }
+img{
+    height: 200px;
+    /* width: 80px; */
+}
+.book{
+    text-align: center;
+}
+.container- {
+    min-height: 100vh;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 0;
+  }
+  .brand- h1 {
+    font-size: 3rem;
+    text-transform: uppercase;
+    color: white;
+    letter-spacing: 2px;
+  }
+  .brand- h1 span {
+    color: crimson;
+  }
+  #header- {
+    /* position: fixed;
+    z-index: 1000;
+    left: 0;
+    top: 0; */
+    /* width: 100vw; */
+    height: auto;
+  }
+  #header- .header- {
+    min-height: 3vh;
+    background-color: rgba(219, 17, 17, 0.24);
+    transition: 0.5s ease-in;
+  }
+  #header- .nav-bar- {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+    height: 100%;
+    max-width: 1400px;
+    padding: 0 10px;
+  }
+  #header- .nav-list- ul {
+    list-style: none;
+    position: initial;
+    display: block;
+    height: auto;
+    width: fit-content;
+  }
+  #header- .nav-list- ul a {
+    font-size: 2.5rem;
+    font-weight: 500;
+    letter-spacing: 2px;
+    text-decoration: none;
+    color: white;
+    text-transform: uppercase;
+    padding: 20px;
+    display: block;
+    transition: 0.4s ease-in-out transform;
+  }
+  #header- .nav-list- ul li {
+    display: inline-block;
+  }
+  #header- .nav-list- ul li a {
+    font-size: 1.5rem;
+  }
+  #header- .nav-list- ul a:hover {
+    transform: scale(1.2);
+  }
+  #header- .nav-list- span {
+    color: crimson;
+    font-size: 30px;
+  }
