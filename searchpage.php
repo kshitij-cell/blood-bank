@@ -1,5 +1,5 @@
 <?php
-include  'check.php';
+//include  'check.php';
 // echo $_POST['email-input'];
 ?>
 <!doctype html>
