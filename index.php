@@ -159,7 +159,7 @@
 
     <section id="signinup">
         <div class="cont-sign">
-            <form action="" method="post">
+            <form action="searchpage.php" method="post">
                 <div class="form sign-in">
                     <h2>Donate Blood Here</h2>
                     <label class="box">
@@ -221,7 +221,7 @@
                             of
                             India, I am 18+ years old.</label>
                     </div>
-                    <button type="button" class="submit">Donate Now</button>
+                    <button type="submit" class="submit">Donate Now</button>
                     <!-- <p class="forgot-pass">Forgot password?</p> -->
                 </div>
             </form>
@@ -242,7 +242,7 @@
                         <span class="m--in">Donate Blood</span>
                     </div>
                 </div>
-                <form action="" method="post">
+                <form action="searchpage.php" method="post">
                     <div class="form sign-up">
                         <h2 style="margin-top: 0;">Request Blood Here</h2>
                         <!-- <div class="ui horizontal divider"></div> -->
@@ -251,7 +251,7 @@
                             <input type="text" placeholder="Full Name" name="r-fname" required />
                         </label>
                         <label class="box">
-                            <input type="email" placeholder="Email" name="r-email" required />
+                            <input type="email" placeholder="Email" name="d-email" required />
                         </label>
                         <label class="box">
                             <input type="text" placeholder="Contact Number" name="r-number" required />
@@ -288,7 +288,7 @@
                         <label class="box">
                             <input type="text" placeholder="Quantity in Pint" required />
                         </label>
-                        <button type="button" class="submit">Request Now</button>
+                        <button type="submit" class="submit">Request Now</button>
                     </div>
                 </form>
             </div>
@@ -377,5 +377,6 @@
     -->
 </body>
 <script defer src="header.js"></script>
+<script src="./test.js"></script>
 
 </html>

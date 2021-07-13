@@ -1,3 +1,7 @@
+<?php
+include  'check.php';
+// echo $_POST['email-input'];
+?>
 <!doctype html>
 <html lang="en">
 
@@ -179,7 +183,9 @@
                 <div class="modal-body">
                     Your Appointment has been booked.
                 </div>
-
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-danger" data-bs-dismiss="modal">Close</button>
+                </div>
             </div>
         </div>
     </div>
